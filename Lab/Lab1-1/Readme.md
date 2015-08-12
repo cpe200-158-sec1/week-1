@@ -7,26 +7,26 @@
 
 
 ## Revision, put your commit number here
-* Sort from larger to smaller:
+* Sort from larger to smaller: 53b7895f94e4b61d8c3b1bdc76caaca6ec273258
 * Without flag:
 
 ## Questions
 1. How this code can sort number from smaller to larger
  
-Answer: 
+Answer:  Test
 
 2. What if two numbers equal, what will happen? 
 
-Answer: 
+Answer: Test
 
 3. How many times at line 24 will be executed (as a function of the size of input) 
 
-Answer: 
+Answer: Test
 
 4. Why we need flag variable ? 
 
-Answer: 
+Answer: Test
 
 5. When we remove the flag variable, the code will run faster or slower? in which scenario? 
 
-Answer:
+Answer: Test

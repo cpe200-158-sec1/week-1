@@ -13,20 +13,20 @@
 ## Questions
 1. How this code can sort number from smaller to larger
  
-Answer: 
+Answer: เปรียบเทียบเลขมากกับน้อยแล้วสลับเลขโดยเอาเลขมากไปไว้ข้างหลังก่อน
 
 2. What if two numbers equal, what will happen? 
 
-Answer: 
+Answer: ไม่มีอะไรเกิดขึ้น 
 
 3. How many times at line 24 will be executed (as a function of the size of input) 
 
-Answer: 
+Answer: [x,(x-1)^2]
 
 4. Why we need flag variable ? 
 
-Answer: 
+Answer: เราต้องการเช็คว่ายังมีการสลับเลขอยู่มั้ยเมื่อไม่มีการสลับแล้วจะออก loop while เมื่อ flag ไม่เป็น true
 
 5. When we remove the flag variable, the code will run faster or slower? in which scenario? 
 
-Answer:
+Answer:ช้าลงเพราะ flag ช่วยเช็คว่ายังมีการสลับตัวเลขอยู่มั้ย และทำการจบ loop ได้เร็วถ้าเสร็จก่อน

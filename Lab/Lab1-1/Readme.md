@@ -7,13 +7,13 @@
 
 
 ## Revision, put your commit number here
-* Sort from larger to smaller:
-* Without flag:
+* Sort from larger to smaller:3fd079343ba2e9138bd566683a9f23b430192960
+* Without flag:d8e3d878bae821baaf4acc72630502071cb7d1a6
 
 ## Questions
 1. How this code can sort number from smaller to larger
  
-Answer: สลับเทียบกับตัวต่อไปเรื่อยๆ 
+Answer: สลับเทียบกับตัวต่อไปเรื่อยๆ จนกว่าตัวที่มากสุดจะไปอยู่ด้านหลัง
 
 2. What if two numbers equal, what will happen? 
 

@@ -14,28 +14,31 @@ namespace Lab1_1
         /// <param name="args"></param>
         static void Main(string[] args)
         {
-            bool flag = true;
             
-
             // input
             int[] input = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
-
+            int times = input.Length*(input.Length-1);
+            int n = 0;
+            
             // process
-            while (flag)
+
+                while(n<times)
             {
-                flag = false;
                 for (int i = 0; i != input.Length - 1; i++)
                 {
-                    
+
                     if (input[i] < input[i + 1])
                     {
                         int temp = input[i];
                         input[i] = input[i + 1];
                         input[i + 1] = temp;
-                        flag = true;
+                        
                     }
                 }
+                n++;
             }
+                
+            
 
             // output
             for (int i = 0; i != input.Length; i++)

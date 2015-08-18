@@ -9,24 +9,24 @@ namespace Lab1_1
     class BubbleSort
     {
         static void Main(string[] args)
-        {   
-            
+        {
+            bool flag = true;
 
             // input
             int[] input = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
 
             // process
-            for (int m = 0; m != input.Length - 1; m++)
+            while (flag)
             {
-                
+                flag = false;
                 for (int i = 0; i != input.Length - 1; i++)
                 {
-                    if (input[i] > input[i + 1])
+                    if (input[i] < input[i + 1])
                     {
                         int temp = input[i];
                         input[i] = input[i + 1];
                         input[i + 1] = temp;
-                        
+                        flag = true;
                     }
                 }
             }

@@ -13,7 +13,7 @@ namespace Lab1_1
         static void Main(string[] args)
         {
             bool flag = true;
-
+            int time = 0;
             // input
             int[] input = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
 
@@ -29,7 +29,10 @@ namespace Lab1_1
                         input[i] = input[i + 1];
                         input[i + 1] = temp;
                         flag = true;
+                        
                     }
+
+
                 }
             }
 
@@ -39,6 +42,7 @@ namespace Lab1_1
                 Console.Write(input[i]);
                 Console.Write(" ");
             }
+          
             Console.ReadKey();
         }
     }

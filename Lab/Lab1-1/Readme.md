@@ -13,19 +13,19 @@
 ## Questions
 1. How this code can sort number from smaller to larger
  
-Answer: 
+Answer: check condition(num[i]>num[i+1]) and switching two number until array number was sort to   smaller to larger.
 
 2. What if two numbers equal, what will happen? 
 
-Answer: 
+Answer: not issue and it will run next loop
 
 3. How many times at line 24 will be executed (as a function of the size of input) 
 
-Answer: 
+Answer: when input array sort smaller to larger , it will run n-1 AND when input array sort larger to  smaller , it will run n(n-1)
 
 4. Why we need flag variable ? 
 
-Answer: 
+Answer: Because it control loop and save time to run 
 
 5. When we remove the flag variable, the code will run faster or slower? in which scenario? 
 

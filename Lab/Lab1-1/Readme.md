@@ -21,7 +21,7 @@ Answer:
 
 3. How many times at line 24 will be executed (as a function of the size of input) 
 
-Answer: 
+Answer: MIN x MAX x^2
 
 4. Why we need flag variable ? 
 

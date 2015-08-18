@@ -13,7 +13,7 @@
 ## Questions
 1. How this code can sort number from smaller to larger
  
-Answer: สลับเทียบกับตัวต่อไปเรื่อยๆ ถ้า flag 
+Answer: สลับเทียบกับตัวต่อไปเรื่อยๆ 
 
 2. What if two numbers equal, what will happen? 
 

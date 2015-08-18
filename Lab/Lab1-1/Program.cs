@@ -16,7 +16,7 @@ namespace Lab1_1
             int[] input = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
 
             // process
-            while ()
+            while ( )
             {
                 
                 for (int i = 0; i != input.Length - 1; i++)

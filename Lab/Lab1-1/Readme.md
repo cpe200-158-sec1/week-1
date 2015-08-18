@@ -23,11 +23,11 @@ Answer: ไม่เข้า while loop แสดงผลตัวเลขท
 
 3. How many times at line 24 will be executed (as a function of the size of input) 
 
-Answer: x-1
+Answer: 
 
 4. Why we need flag variable ? 
 
-Answer: เพื่อให้มีการวนloopตามจำนวนของinput หากเชคเกินก็จะ
+Answer: เพื่อให้มีการเชคว่าเลขทั้งหมดเรียงจากน้อยไปมากหรือยังถ้ายังก็จะทำการเรียงตัวเลข ถ้าเรียงทั้งหมดแล้วก็จะออกจากloop
 
 5. When we remove the flag variable, the code will run faster or slower? in which scenario? 
 

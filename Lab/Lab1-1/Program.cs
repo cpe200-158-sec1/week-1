@@ -11,7 +11,7 @@ namespace Lab1_1
         static void Main(string[] args)
         {
             bool flag = true;
-            int time = 0;
+            
             // input
             int[] input = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
 

@@ -21,7 +21,7 @@ Answer: ไม่เกิดการเปลี่ยนแปลง แล�
 
 3. How many times at line 24 will be executed (as a function of the size of input) 
 
-Answer: n ( n -1 ) / 2
+Answer: n ( n -1 ) / 2 
 
 4. Why we need flag variable ? 
 

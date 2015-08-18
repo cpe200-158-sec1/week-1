@@ -7,8 +7,8 @@
 
 
 ## Revision, put your commit number here
-* Sort from larger to smaller: 
-* Without flag:
+* Sort from larger to smaller: b675632a46249e56ec13cdce9e7114502b13fd45
+* Without flag: 
 
 ## Questions
 1. How this code can sort number from smaller to larger
@@ -21,7 +21,7 @@ Answer: no happen.
 
 3. How many times at line 24 will be executed (as a function of the size of input) 
 
-Answer: [n,(n-1)^2] ; n = size of input
+Answer: [n-1,(n-1)^2] ; n = size of input
 
 4. Why we need flag variable ? 
 

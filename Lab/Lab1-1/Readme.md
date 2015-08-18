@@ -13,19 +13,19 @@
 ## Questions
 1. How this code can sort number from smaller to larger
  
-Answer: 
+Answer: สลับตำแหน่งกับเลขตำแหน่งถัดไป ก็ต่อเมื่อ ตัวเลขนั้นมากกว่าตัวเลขตำแหน่งถัดไป
 
 2. What if two numbers equal, what will happen? 
 
-Answer: 
+Answer: ไม่สลับตำแหน่งกัน
 
 3. How many times at line 24 will be executed (as a function of the size of input) 
 
-Answer: 
+Answer: เช็คเงื่อนไขมากที่สุด [n-1]^2 ครั้ง น้อยสุด [n-1] ครั้ง เมื่อ n คือจำนวนที่ input
 
 4. Why we need flag variable ? 
 
-Answer: 
+Answer: เพื่อนำมาเช็คว่าเลขที่เราเรียง เรียงได้ถุกต้องแล้วหรือยัง ถ้าถูกต้องทุกตัวแหน่งแล้ว จะหลุดออกจาก Loop while
 
 5. When we remove the flag variable, the code will run faster or slower? in which scenario? 
 

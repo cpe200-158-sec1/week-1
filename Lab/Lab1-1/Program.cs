@@ -28,7 +28,7 @@ namespace Lab1_1
                         input[i + 1] = temp;
                         flag = true;
                     }
-                }
+                } 
             }
 
             // output

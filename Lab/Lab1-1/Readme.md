@@ -13,7 +13,7 @@
 ## Questions
 1. How this code can sort number from smaller to larger
  
-Answer: เปรียบเทียบตัวปัจจุบันกับตัวถัดไป จะสลับตำแหน่งเมื่อตัวปัจจุบันมากกว่าตัวถัดไป
+Answer: เมื่อรับค่ามา จะเปรียบเทียบตัวปัจจุบันกับตัวถัดไป แล้วสลับตำแหน่งเมื่อตัวปัจจุบันมากกว่าตัวถัดไป
 
 2. What if two numbers equal, what will happen? 
 

@@ -13,19 +13,21 @@
 ## Questions
 1. How this code can sort number from smaller to larger
  
-Answer: 
+Answer: เปรียบเทียบตัวเลขสองตัว ถ้าเลขตัวแรกมากกว่าตัวถัดไป ก็จะสร้างตัวแปร temp มาเก็บค่าของตัวเลขตัวแรกไว้
+แล้วนำค่าของเลขตัวถัดไปมาใส่ไว้ในตัวเลขตัวแรกแทนจากนั้นนำค่าของตัวเลขตัวแรกที่เก็บไว้ในตัวแปร tempไปใส่ไว้ในตัวเลขตัวถัดไป
+เป็นการสลับตัวเลขโดยการเรียงจากน้อยไปมาก
 
 2. What if two numbers equal, what will happen? 
 
-Answer: 
+Answer: ไม่เข้า while loop แสดงผลตัวเลขที่เรียงมาก่อนหน้านั้น
 
 3. How many times at line 24 will be executed (as a function of the size of input) 
 
-Answer: 
+Answer: x-1
 
 4. Why we need flag variable ? 
 
-Answer: 
+Answer: เพื่อให้มีการวนloopตามจำนวนของinput หากเชคเกินก็จะ
 
 5. When we remove the flag variable, the code will run faster or slower? in which scenario? 
 

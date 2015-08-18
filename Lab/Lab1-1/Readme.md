@@ -25,8 +25,8 @@ Answer: (size of input) - 1 >= times <= (size of input)^2
 
 4. Why we need flag variable ? 
 
-Answer: 
+Answer: ใช้ Check ว่ามีการเรียงลำดับแล้วหรือยัง 
 
 5. When we remove the flag variable, the code will run faster or slower? in which scenario? 
 
-Answer:
+Answer: จะเรียงลำดับทุกรอบ ถึงแม้มีการเรียงมาแล้ว 

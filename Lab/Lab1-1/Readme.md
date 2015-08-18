@@ -13,20 +13,20 @@
 ## Questions
 1. How this code can sort number from smaller to larger
  
-Answer: 
+Answer: change > to <.
 
 2. What if two numbers equal, what will happen? 
 
-Answer: 
+Answer: it'll sort just like 5 5 3 3.
 
 3. How many times at line 24 will be executed (as a function of the size of input) 
 
-Answer: 
+Answer: n*n times.
 
 4. Why we need flag variable ? 
 
-Answer: 
+Answer: it work like if cause to make it quit loop.
 
 5. When we remove the flag variable, the code will run faster or slower? in which scenario? 
 
-Answer:
+Answer: slower than before when check,sort number.

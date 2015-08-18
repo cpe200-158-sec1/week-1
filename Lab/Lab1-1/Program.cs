@@ -17,7 +17,7 @@ namespace Lab1_1
 
             // process
            
-            for(int j=0;j<input.Length*(input.Length-1);j++)
+            for(int j=0;j<(input.Length-1);j++)
             {
               
                 for (int i = 0; i != input.Length - 1; i++)

@@ -21,7 +21,7 @@ Answer: ไม่มีอะไรเกิดขึ้น
 
 3. How many times at line 24 will be executed (as a function of the size of input) 
 
-Answer: [x,(x-1)^2]
+Answer: [x-1,(x-1)^2]
 
 4. Why we need flag variable ? 
 

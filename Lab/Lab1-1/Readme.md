@@ -7,7 +7,7 @@
 
 
 ## Revision, put your commit number here
-* Sort from larger to smaller:
+* Sort from larger to smaller: 3e673ef
 * Without flag: 
 
 ## Questions

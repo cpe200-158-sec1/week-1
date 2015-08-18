@@ -13,20 +13,20 @@
 ## Questions
 1. How this code can sort number from smaller to larger
  
-Answer: 
+Answer: เมื่อมีการ input ตัวเลขเข้ามาจะมีการตรวจสอบถ้าตัวเลขที่เข้ามามีค่ามากว่าตัวถัดไปจะมีการสลับตำแหน่งและนำค่าที่มากกว่าไปด้านหลัง
 
 2. What if two numbers equal, what will happen? 
 
-Answer: 
+Answer: จะไม่มีการสลับตำแหน่งของตัวเลข และจะเช็คตัวต่อไป
 
 3. How many times at line 24 will be executed (as a function of the size of input) 
 
-Answer: 
+Answer: x คือจำนวน input จำนวนลูปได้เร็วที่สุดคือ x-1 ลูป และจำนวนที่ช้าที่สุดคือ  (x/2)*(x-1) ลูป
 
 4. Why we need flag variable ? 
 
-Answer: 
+Answer:  ใช้เป็นตัวเช็ค ว่าโปรแกรมเรียงเลขถูกต้องแล้วหรือยัง ถ้าถูกจะออกจากลูป
 
 5. When we remove the flag variable, the code will run faster or slower? in which scenario? 
 
-Answer:
+Answer: เร็วขึ้น แต่ อาจมีการผิดพลาด

@@ -23,10 +23,13 @@ Answer: โปรแกรมก็จะข้ามไปตรวจสอบ
 Answer:หาได้จากการแทนจำนวน input เป็น x แล้วแทนใน x/2(x-1) จะได้ตำตอบเป็น 45 รอบ
 
 4. Why we need flag variable ? 
- 
-Answer: เพื่อตรวจสอบว่าตัวเลขทั้งหมดได้ถูกจัดเรียงอย่างถูกต้องทั้งหมด
+
+Answer: เพื่อตรวจสอบว่าตัวเลขทั้งหมดได้ถูกจัดเรียง
 
 5. When we remove the flag variable, the code will run faster or slower? in which scenario? 
 
-Answer: โปรแกรมจะทำงานได้เร็วขึ้น แต่ตัวเลขจะถูกสลับแค่รอบเดียว ทำให้ไม่ได้ถูกจัดเรียงตามที่ต้องการ
-     
+Answer:ช้าลงแต่ทำงานได้ถูกต้อง
+
+## Revision, put your commit number here
+ *Sort from Larger to smaller ## 2d93ac6723e04cb0db42e6aa7da2daa396750f92
+ *Without Flag ## fb36b2a0c154c9d6512541a7a5fde203cf730598

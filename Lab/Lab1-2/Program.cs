@@ -35,6 +35,7 @@ namespace Lab1_2
                 Console.Write(" ");
             }
             Console.ReadKey();
+
         }
     }
 }

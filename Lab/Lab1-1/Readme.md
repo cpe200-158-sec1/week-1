@@ -29,4 +29,4 @@ Answer: เป็นตัวเช็คว่าทำการเรียง
 
 5. When we remove the flag variable, the code will run faster or slower? in which scenario? 
 
-Answer:
+Answer: ช้าลง แต่ ทำงานได้ถูกต้อง

@@ -13,19 +13,19 @@
 ## Questions
 1. How this code can sort number from smaller to larger
  
-Answer: 
+Answer: This program will move numbers in arrey when previous number is more than next number. if not it will use while loop to recheck number agian.
 
 2. What if two numbers equal, what will happen? 
 
-Answer: 
+Answer: Number didn't change position.
 
 3. How many times at line 24 will be executed (as a function of the size of input) 
 
-Answer: MIN x MAX x^2
+Answer: If x is input numbers. Minimum is x-1 and Maximum is (x-1)^2.
 
 4. Why we need flag variable ? 
 
-Answer: 
+Answer: This variable varify number that number sort is correct.
 
 5. When we remove the flag variable, the code will run faster or slower? in which scenario? 
 

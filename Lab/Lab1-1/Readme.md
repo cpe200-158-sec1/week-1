@@ -21,7 +21,7 @@ Answer: Nothing
 
 3. How many times at line 24 will be executed (as a function of the size of input) 
 
-Answer:  10 times [if input x the longest case of sorting = x time(s)]
+Answer:   times [if input x the longest case of sorting = x time(s)]
 
 4. Why we need flag variable ? 
 

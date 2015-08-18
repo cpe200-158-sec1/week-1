@@ -7,26 +7,26 @@
 
 
 ## Revision, put your commit number here
-* Sort from larger to smaller:
+* Sort from larger to smaller: line
 * Without flag:
 
 ## Questions
 1. How this code can sort number from smaller to larger
  
-Answer: 
+Answer: Change condition in line 24 from "if (input[i] > input[i + 1])" to "if (input[i] < input[i + 1])".
 
 2. What if two numbers equal, what will happen? 
 
-Answer: 
+Answer: Number in position i will not transposition to i+1 (stay in current position).
 
 3. How many times at line 24 will be executed (as a function of the size of input) 
 
-Answer: 
+Answer: Executed between  n-1 to (n-1)^2 time(s) when n is size of input.
 
 4. Why we need flag variable ? 
 
-Answer: 
+Answer: We do not want to processing all case EVEN all number are sorted. So if these number are correctly sorted, Flag variables will be FALSE (TRUE if not) and it will break all loop to next process.
 
 5. When we remove the flag variable, the code will run faster or slower? in which scenario? 
 
-Answer:
+Answer: Slower because EVEN it were sorted, it will run all case (processing up to max times).

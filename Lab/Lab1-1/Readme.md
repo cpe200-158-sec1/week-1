@@ -7,8 +7,8 @@
 
 
 ## Revision, put your commit number here
-* Sort from larger to smaller: 9 8 5 4 4 3 2 1 1
-* Without flag: 5 4 8 9 2 2 4 3 1 1
+* Sort from larger to smaller: 9ae30a2014e1035ea04cd65a2d611dace8e3a4a7
+* Without flag: 
 
 ## Questions
 1. How this code can sort number from smaller to larger
@@ -21,7 +21,7 @@ Answer: จะไม่สลับตัวเลขกัน
 
 3. How many times at line 24 will be executed (as a function of the size of input) 
 
-Answer: n(n-1)!
+Answer: n*n
 
 4. Why we need flag variable ? 
 

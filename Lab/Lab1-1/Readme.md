@@ -21,7 +21,7 @@ Answer: Do nothing.
 
 3. How many times at line 24 will be executed (as a function of the size of input) 
 
-Answer: [n, (n-1)^2], n = size of input.
+Answer: [n-1, (n-1)^2], n = size of input.
 
 4. Why we need flag variable ? 
 

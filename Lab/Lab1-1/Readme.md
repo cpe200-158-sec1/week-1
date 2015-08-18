@@ -7,7 +7,7 @@
 
 
 ## Revision, put your commit number here
-* Sort from larger to smaller: 
+* Sort from larger to smaller: d6da8cfe061f5eaa451a30902a68d63468efe352
 * Without flag:
 
 ## Questions
@@ -36,4 +36,5 @@ Answer: to check loop is complete? .if the sort number not from small to large
 
 5. When we remove the flag variable, the code will run faster or slower? in which scenario? 
 
-Answer: 
+Answer: The code will run slower because it will go to process in loop for equal n*(n-1) times (n is size of input number) 
+		(วนในลูปเพื่อตรวจสอบเป็นจำนวนครั้งเท่ากับจำนวนครั้งที่มากที่สุดที่ใช้เรียงตัวเลข)   

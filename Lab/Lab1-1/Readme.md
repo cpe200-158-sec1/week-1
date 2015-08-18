@@ -13,20 +13,20 @@
 ## Questions
 1. How this code can sort number from smaller to larger
  
-Answer: 
+Answer: By check variables nearby and swap if right smaller than left.
 
 2. What if two numbers equal, what will happen? 
 
-Answer: 
+Answer: End from while loop.
 
 3. How many times at line 24 will be executed (as a function of the size of input) 
 
-Answer: 
+Answer: [n,(n-1)^2]
 
 4. Why we need flag variable ? 
 
-Answer: 
+Answer: To check variables. If flag is true, it will continue loop and check variables. If flag is false end from while loop.
 
 5. When we remove the flag variable, the code will run faster or slower? in which scenario? 
 
-Answer:
+Answer: The code will run slower.

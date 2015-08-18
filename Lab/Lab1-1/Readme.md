@@ -13,7 +13,7 @@
 ## Questions
 1. How this code can sort number from smaller to larger
  
-Answer: This program will transposition number in array if previous number is more than next number, if not it will recheck and sort these number again.
+Answer: This program will transposition number in array when previous number is more than next number, if not it will use WHILE LOOP to recheck and sort these number again.
 
 2. What if two numbers equal, what will happen? 
 

@@ -29,4 +29,4 @@ Answer: This variable varify number that number sort is correct.
 
 5. When we remove the flag variable, the code will run faster or slower? in which scenario? 
 
-Answer:
+Answer: 

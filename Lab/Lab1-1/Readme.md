@@ -13,15 +13,15 @@
 ## Questions
 1. How this code can sort number from smaller to larger
  
-Answer: 
+Answer: เปรียบเทียบตัวปัจจุบันกับตัวถัดไป จะสลับตำแหน่งเมื่อตัวปัจจุบันมากกว่าตัวถัดไป
 
 2. What if two numbers equal, what will happen? 
 
-Answer: 
+Answer: ไม่มีการสลับตำแหน่ง เลื่อนพิจารณาตัวถัดไป
 
 3. How many times at line 24 will be executed (as a function of the size of input) 
 
-Answer: 
+Answer: (size of input) - 1 >= times <= (size of input)^2
 
 4. Why we need flag variable ? 
 

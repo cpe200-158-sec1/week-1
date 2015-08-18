@@ -13,20 +13,20 @@
 ## Questions
 1. How this code can sort number from smaller to larger
  
-Answer: 
+Answer: compare two number and move larger number to last position.
 
 2. What if two numbers equal, what will happen? 
 
-Answer: 
+Answer: no happen.
 
 3. How many times at line 24 will be executed (as a function of the size of input) 
 
-Answer: 
+Answer: [n,(n-1)^2] ; n = size of input
 
 4. Why we need flag variable ? 
 
-Answer: 
+Answer: Because, flag can check sort number is complete.
 
 5. When we remove the flag variable, the code will run faster or slower? in which scenario? 
 
-Answer:
+Answer: Slower, because variable flag can check sort number is complete and exit loop.

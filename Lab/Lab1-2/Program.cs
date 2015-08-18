@@ -14,8 +14,7 @@ namespace Lab1_2
         {
            
 
-           
-
+       
             int[]  input = intputsort();
             
             input = processsort(input);
@@ -26,8 +25,21 @@ namespace Lab1_2
 
         static int[] intputsort()
         {
+            
+                //{ 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
+           
             // input
-            int[] input = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
+            Console.Write("Enter number of array size : ");
+            int size = int.Parse(Console.ReadLine());
+            int[] input = new int[size];
+            for (int i=0; i<size;i++)
+            {
+                Console.Write("Enter the Number( "+(i+1)+" ) : ");
+                input[i] = int.Parse(Console.ReadLine());
+
+            }
+
+
             return input;
         }
 
@@ -58,8 +70,12 @@ namespace Lab1_2
         {
 
             // output
+
+            Console.Write("Answer is : ");
+
             for (int i = 0; i != input.Length; i++)
             {
+               
                 Console.Write(input[i]);
                 Console.Write(" ");
             }

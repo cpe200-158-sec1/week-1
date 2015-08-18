@@ -30,4 +30,4 @@ Answer: ตัวแปร flag มีหน้าที่ในการตร
 
 5. When we remove the flag variable, the code will run faster or slower? in which scenario? 
 
-Answer: ช้ากว่า เพราะ โปรแกรมจะทำงานไปเรื่อยๆ เนื่องจากไม่มีตัวแปรตรวจสอบการเรียงลำดับที่ถูกต้องแล้ว
+Answer: ช้ากว่า เพราะ โปรแกรมจะทำงานไปเรื่อยๆ เนื่องจากไม่มีตัวแปรตรวจสอบการเรียงลำดับที่ถูกต้องแล้ว jjjjj

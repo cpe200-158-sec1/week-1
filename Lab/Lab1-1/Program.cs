@@ -26,7 +26,7 @@ namespace Lab1_1
                         int temp = input[i];
                         input[i] = input[i + 1];
                         input[i + 1] = temp;
-                        flag = true;
+                        flag = true; jjjj
                     }
                 }
             }

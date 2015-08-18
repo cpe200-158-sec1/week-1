@@ -8,7 +8,7 @@
 
 ## Revision, put your commit number here
 * Sort from larger to smaller:672c76102f64f62ac4c00656f46637c2ea364db4
-* Without flag:
+* Without flag:1c8cd7cb9b613af155b694724a04a1824249a4b8
 
 ## Questions
 1. How this code can sort number from smaller to larger
@@ -29,4 +29,4 @@ Answer:  ใช้เป็นตัวเช็ค ว่าโปรแกร�
 
 5. When we remove the flag variable, the code will run faster or slower? in which scenario? 
 
-Answer: 
+Answer:  เร็วขึ้นแต่อาจมีการผิดพลาด 

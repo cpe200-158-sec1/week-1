@@ -8,6 +8,13 @@ namespace HW1
 {
     class Program
     {
+       static int inputnum()
+        {
+            int input= int.Parse(Console.ReadLine());
+
+            return input;
+        }
+
         static int process(int i)
         {
             int result;
@@ -22,7 +29,7 @@ namespace HW1
         }
         static void Main(string[] args)
         {
-            int j = 5;
+            int j = inputnum();
             Console.WriteLine(process(j));
             Console.ReadKey();
         }

@@ -13,20 +13,20 @@
 ## Questions
 1. How this code can sort number from smaller to larger
  
-Answer: 
+Answer: compare 2 numbers and if next number is smaller than previus number , there will were swap.
 
 2. What if two numbers equal, what will happen? 
 
-Answer: 
+Answer: number dont swap.
 
 3. How many times at line 24 will be executed (as a function of the size of input) 
 
-Answer: 
+Answer: [x,x^2]
 
 4. Why we need flag variable ? 
 
-Answer: 
+Answer: check that numbers are arrange.
 
 5. When we remove the flag variable, the code will run faster or slower? in which scenario? 
 
-Answer:
+Answer: slower if numbers are arrange.

@@ -13,11 +13,11 @@
 ## Questions
 1. How this code can sort number from smaller to larger
  
-Answer: 
+Answer: ตั้งค่าiเป็นตัวเลขเริ่มต้นและเช็คกับiตัวถัดไป ถ้าเลขที่ตำแหน่งiมากกว่าตำแหน่งถัดไปมากกว่าก็จะสลับตำแหน่งกับตัวถัดไปเรื่อยๆจน ครบทุกตัวตามเงื่อนไข
 
 2. What if two numbers equal, what will happen? 
 
-Answer: 
+Answer:  ไม่เกิดอะไรขึ้นเนื่องจาก ถ้าเจอเลขที่เท่ากันจะข้ามไปเช็คตัวถัดไป
 
 3. How many times at line 24 will be executed (as a function of the size of input) 
 
@@ -25,7 +25,7 @@ Answer:
 
 4. Why we need flag variable ? 
 
-Answer: 
+Answer: เป็นตัวเช็คว่าทำการเรียงเลขถูกต้องหมดแล้ว ถ้าถูกหมด จะหลุดออกจากลูป
 
 5. When we remove the flag variable, the code will run faster or slower? in which scenario? 
 

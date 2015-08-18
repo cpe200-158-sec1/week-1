@@ -17,7 +17,14 @@ namespace Lab1_2
         }
         static int[] input()
         {
-            int[] input = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
+            int num;
+            Console.WriteLine("Input you size of your number : ");
+            num = Convert.ToInt32(Console.ReadLine());
+            int[] input = new int[num];
+            for(int i=0;i<num;i++)
+            {   
+                input[i] = Convert.ToInt32(Console.ReadLine());
+            }           
             return (input);
         }
         static int[] process(int[] input)

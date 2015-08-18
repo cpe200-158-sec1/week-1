@@ -29,4 +29,4 @@ Answer: เพื่อนำมาเช็คว่าเลขที่เร
 
 5. When we remove the flag variable, the code will run faster or slower? in which scenario? 
 
-Answer:
+Answer: 

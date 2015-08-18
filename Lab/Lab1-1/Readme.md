@@ -22,7 +22,7 @@ Answer: check condition(num[i]>num[i+1]) and switching two number until array nu
 Answer: not issue and it will run next loop.
  
  3. How many times at line 24 will be executed (as a function of the size of input) 
- 
+  
 
 Answer:when input array sort smaller to larger , it will run n-1 AND when input array sort larger to  smaller , it will run n(n-1).
  

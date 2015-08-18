@@ -7,7 +7,7 @@
 
 
 ## Revision, put your commit number here
-* Sort from larger to smaller:
+* Sort from larger to smaller:7b35632f99f417ea341cd01bb93fe09b03aed6a1
 * Without flag:
 
 ## Questions
@@ -29,4 +29,4 @@ Answer: เป็นตัวเช็คว่าทำการเรียง
 
 5. When we remove the flag variable, the code will run faster or slower? in which scenario? 
 
-Answer:เร็วขึ้นแต่ว่าค่าที่ได้อาจจะผิดพลาดได้
+Answer:

@@ -7,8 +7,8 @@
 
 
 ## Revision, put your commit number here
-* Sort from larger to smaller:
-* Without flag:
+* Sort from larger to smaller: c389d6be625baa4d152e648da38aa2791945fe77
+* Without flag: 
 
 ## Questions
 1. How this code can sort number from smaller to larger
@@ -29,4 +29,4 @@ Answer: This variable varify number that number sort is correct.
 
 5. When we remove the flag variable, the code will run faster or slower? in which scenario? 
 
-Answer: 
+Answer: Slower because program is running all case. 

@@ -7,26 +7,26 @@
 
 
 ## Revision, put your commit number here
-* Sort from larger to smaller:
-* Without flag:
+* Sort from larger to smaller: 9 8 5 4 4 3 2 1 1
+* Without flag: 5 4 8 9 2 2 4 3 1 1
 
 ## Questions
 1. How this code can sort number from smaller to larger
  
-Answer: 
+Answer: เทียบตัวเลขในarrayปัจจุบันกับarrayถัดไป หากตัวเลขในarrayถัดไปมีค่าน้อยกว่าตัวเลขในarrayปัจจุบัน จะสลับตำแหน่งตัวเลขสองตัว
 
 2. What if two numbers equal, what will happen? 
 
-Answer: 
+Answer: จะไม่สลับตัวเลขกัน
 
 3. How many times at line 24 will be executed (as a function of the size of input) 
 
-Answer: 
+Answer: n(n-1)!
 
 4. Why we need flag variable ? 
 
-Answer: 
+Answer: เป็นตัวเช็คว่าจะไม่มีการสลับตำปหน่งตัวเลขแล้ว
 
 5. When we remove the flag variable, the code will run faster or slower? in which scenario? 
 
-Answer:
+Answer:โค๊ดจะไม่สามารถทำงานได้เนื่องจากติดลูปwhile

@@ -23,7 +23,7 @@ Answer: ไม่เข้า while loop แสดงผลตัวเลขท
 
 3. How many times at line 24 will be executed (as a function of the size of input) 
 
-Answer: 
+Answer: จำนวนครั้งที่น้อยสุดคือ x=n มากสุดคือ x=n(n-1) ;xคือinput 
 
 4. Why we need flag variable ? 
 

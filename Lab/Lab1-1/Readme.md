@@ -13,7 +13,7 @@
 ## Questions
 1. How this code can sort number from smaller to larger
  
-Answer: Change condition in line 24 from "if (input[i] > input[i + 1])" to "if (input[i] < input[i + 1])".
+Answer: This program will transposition number in array if previous number is more than next number, if not it will recheck and sort these number again.
 
 2. What if two numbers equal, what will happen? 
 
@@ -21,7 +21,7 @@ Answer: Number in position i will not transposition to i+1 (stay in current posi
 
 3. How many times at line 24 will be executed (as a function of the size of input) 
 
-Answer: Executed between  n-1 to (n-1)^2 time(s) when n is size of input.
+Answer: Executed between n-1 to (n-1)^2 time(s) when n is size of input.
 
 4. Why we need flag variable ? 
 

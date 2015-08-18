@@ -13,20 +13,20 @@
 ## Questions
 1. How this code can sort number from smaller to larger
  
-Answer: 
+Answer:if Number(side-right) large than Number(side-left) ---> Number(side-left) Pushed from side-left to side-right
 
 2. What if two numbers equal, what will happen? 
 
-Answer: 
+Answer: Not into function(if)--->don't happen push
 
 3. How many times at line 24 will be executed (as a function of the size of input) 
 
-Answer: 
+Answer: [n-1,(n-1)^2]
 
 4. Why we need flag variable ? 
 
-Answer: 
+Answer: if finish loop(for) then [flag = false] that is in that round don't enter to (function if) even once , that mean is stop of program .
 
 5. When we remove the flag variable, the code will run faster or slower? in which scenario? 
 
-Answer:
+Answer:it will slower because totol of loop equal (n-1)^2 only.

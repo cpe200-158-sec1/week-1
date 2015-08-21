@@ -12,9 +12,16 @@ namespace Lab1_2
         //input
         static public int[] input_value()
         {
-            int[] a = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 }; 
+            int[] defalut;
+            defalut = new int[10];
+            for(int i=0;i<defalut.Length;i++)
+            {
+                defalut[i] = int.Parse(Console.ReadLine());
 
-            return a;
+            }
+
+            return defalut;
+           
         }
 
 
@@ -66,7 +73,8 @@ namespace Lab1_2
             //output
             output(ans);
 
-           
+            Console.ReadKey();
         }
+        
     }
 }

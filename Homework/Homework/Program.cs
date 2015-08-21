@@ -11,10 +11,11 @@ namespace HW1
         static int process(int i)
         {
             int result;
-            if(i > 1)
+            if (i > 1)
             {
                 result = i * process(i - 1);
-            } else
+            }
+            else
             {
                 result = 1;
             }
@@ -22,7 +23,8 @@ namespace HW1
         }
         static void Main(string[] args)
         {
-            int j = 5;
+            int j = 0;
+            j = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine(process(j));
             Console.ReadKey();
         }

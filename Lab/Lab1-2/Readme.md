@@ -5,10 +5,11 @@
 * Revise the code such that it can accept input from command line, put your commit number and answer question 1 below
 
 ## Revision, put your commit number here
-* Three functions: 
+* Three functions: 0d60e91210ee9baf334156f8e0c129bffab33358
 * Get input from command line: aff537c0418b77b2b354abaec67192c9fe02ac0c
 
 ## Questions
 1. What are the limitations of your new code?
 
-Answer:
+Answer: 1. CAN NOT process with all of real number except integer.
+		2. CAN NOT show error when user type incorrect input.

@@ -11,4 +11,4 @@
 ## Questions
 1. What are the limitations of your new code?
 
-Answer: Must fixed size of array that collected input. 
+Answer: Must fixed size of array that collected input.  

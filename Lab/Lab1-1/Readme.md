@@ -36,5 +36,5 @@ Answer: to check loop is complete? .if the sort number not from small to large
 
 5. When we remove the flag variable, the code will run faster or slower? in which scenario? 
 
-Answer: The code will run slower because it will go to process in loop for equal n-1 times (n is size of input number) 
-		)  
+Answer: The code will run slower because it will go to process in loop for equal n-1 times (n is size of input number)  but if it has
+		flag it will stop process when number is sort small to large all number.

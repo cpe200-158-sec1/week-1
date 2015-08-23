@@ -8,12 +8,23 @@ namespace Lab1_2
 {
     class BubbleSortFunction
     {
-        public static int[] input { get; private set; }
-
-        // input
+        //public static int[] input { get; private set; }
+        //public static string rawinput { get; private set; }
+        static int[] input =new int[1000];
+        static int inc;
         static void inputfn()
         {
-           input = new int[]{ 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
+ 
+            string rawinput;
+            int tmp;
+            rawinput = Console.ReadLine();
+            int.TryParse(rawinput, out inc);
+            for (int i=0;i<inc;i++)
+            {
+                string rinput = Console.ReadLine();
+                int.TryParse(rinput, out tmp);
+                input.SetValue(tmp, i);
+            }
         }
 
         // process
@@ -23,7 +34,7 @@ namespace Lab1_2
             while (flag)
             {
                 flag = false;
-                for (int i = 0; i != input.Length - 1; i++)
+                for (int i = 0; i != inc - 1; i++)
                 {
                     if (input[i] > input[i + 1])
                     {
@@ -39,7 +50,7 @@ namespace Lab1_2
         // output
         static void output()
         {
-            for (int i = 0; i != input.Length; i++)
+            for (int i = 0; i != inc; i++)
             {
                 Console.Write(input[i]);
                 Console.Write(" ");
@@ -50,8 +61,7 @@ namespace Lab1_2
 
         static void Main(string[] args)
         {
-            //int[] input;
-            //BubbleSortFunction target = new BubbleSortFunction();
+            //Console.WriteLine("Input : ");
             inputfn();
             process();
             output();

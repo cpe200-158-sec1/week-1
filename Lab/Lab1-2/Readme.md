@@ -9,6 +9,6 @@
 * Get input from command line: a81698b7fd732f8bcf1bd03cd7feacc7a793300e
 
 ## Questions
-1. What are the limitations of your new code?
+1. What are the limitations of your new code?  
 
 Answer: Must fixed size of array that collected input.  

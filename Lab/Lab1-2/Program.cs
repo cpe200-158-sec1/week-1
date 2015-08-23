@@ -81,7 +81,7 @@ namespace Lab1_2
             for (int i = 0; i != input.Length; i++)
             {
                 Console.Write(input[i]);
-                Console.Write(" ");
+                Console.Write(" ") ;
             }
         }
 

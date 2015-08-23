@@ -10,9 +10,14 @@ namespace Lab1_2
     {
         static int[] inputFunc()
         {
-            Console.WriteLine("Input your data [10]: ");
-            int[] tmp = new int[10];
-            for (int i = 0; i != 10; i++)
+            Console.Write("Input your data size : ");
+            int size = 0;
+            size = int.Parse(Console.ReadLine());
+            Console.Write("=== Input your data [");
+            Console.Write(size);
+            Console.WriteLine("] ===");
+            int[] tmp = new int[size];
+            for (int i = 0; i != size; i++)
             {
                 Console.Write(i+1);
                 Console.Write(": ");
@@ -41,6 +46,7 @@ namespace Lab1_2
         }
         static void outputFunc(int[] input)
         {
+            Console.WriteLine();
             for (int i = 0; i != input.Length; i++)
             {
                 Console.Write(input[i]);

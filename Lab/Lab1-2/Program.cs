@@ -44,8 +44,7 @@ namespace Lab1_2
 
         static void Main(string[] args)
         {
-            int[] input = inp();
-            outp(proc(input));
+            outp(proc(inp()));
             Console.ReadKey();
         }
 

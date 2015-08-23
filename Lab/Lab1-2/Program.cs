@@ -10,7 +10,18 @@ namespace Lab1_2
     {
         static int[] Input()
         {
-            int[] input = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
+            int size;
+            Console.Write("Size : ");
+            size = int.Parse(Console.ReadLine());
+            
+            int[] input = new int[size];
+
+            for (int i = 0; i != input.Length ; i++)
+            {
+                Console.Write(i+1);
+                Console.Write(" Input : ");
+                input[i] = int.Parse(Console.ReadLine());
+            }
             return input;
         }
 

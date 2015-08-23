@@ -5,10 +5,10 @@
 * Revise the code such that it can accept input from command line, put your commit number and answer question 1 below
 
 ## Revision, put your commit number here
-* Three functions:
+* Three functions: 0720035a85aa5c091cbaa6fe907efe8482eedbe2
 * Get input from command line:
 
 ## Questions
 1. What are the limitations of your new code?
 
-Answer: 
+Answer: ต้องรับค่าทีละตัว

@@ -11,4 +11,4 @@
 ## Questions
 1. What are the limitations of your new code?
 
-Answer:
+Answer: Program don't show error when input that program recieving is wrong type variable .

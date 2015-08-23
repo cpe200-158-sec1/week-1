@@ -6,9 +6,9 @@
 
 ## Revision, put your commit number here
 * Three functions: 27b1e5288acc91502af4b092e55b6376f93837ed
-* Get input from command line:
+* Get input from command line: a81698b7fd732f8bcf1bd03cd7feacc7a793300e
 
 ## Questions
 1. What are the limitations of your new code?
 
-Answer:
+Answer: Must fixed size of array that collected input. 

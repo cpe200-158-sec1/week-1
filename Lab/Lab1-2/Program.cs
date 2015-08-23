@@ -10,12 +10,26 @@ namespace Lab1_2
     {
         static void Main(string[] args)
         {
+            int[] innum;
+            innum = input();
+            innum = process(innum);
+            output(innum);
+        }
+        static int[] input()
+        {
+            int num;
+            Console.WriteLine("Input you size of your number : ");
+            num = Convert.ToInt32(Console.ReadLine());
+            int[] input = new int[num];
+            for(int i=0;i<num;i++)
+            {   
+                input[i] = Convert.ToInt32(Console.ReadLine());
+            }           
+            return (input);
+        }
+        static int[] process(int[] input)
+        {
             bool flag = true;
-
-            // input
-            int[] input = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
-
-            // process
             while (flag)
             {
                 flag = false;
@@ -30,11 +44,13 @@ namespace Lab1_2
                     }
                 }
             }
-
-            // output
-            for (int i = 0; i != input.Length; i++)
+            return (input);
+        }
+        static void output(int[] data)
+        {
+            for (int i = 0; i != data.Length; i++)
             {
-                Console.Write(input[i]);
+                Console.Write(data[i]);
                 Console.Write(" ");
             }
             Console.ReadKey();

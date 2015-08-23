@@ -52,7 +52,7 @@ namespace Lab1_2
         {
             string recieve = Console.ReadLine();
             int[] input = recieve.Split(' ').Select(integer => Convert.ToInt32(integer)).ToArray();
-            return input;
+            return input ;
 
         }
 

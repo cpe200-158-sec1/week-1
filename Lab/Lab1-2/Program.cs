@@ -10,7 +10,15 @@ namespace Lab1_2
     {
         static int[] inputFunc()
         {
-            int[] input = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
+            Console.WriteLine("Input your data [10]: ");
+            int[] tmp = new int[10];
+            for (int i = 0; i != 10; i++)
+            {
+                Console.Write(i+1);
+                Console.Write(": ");
+                tmp[i] = int.Parse(Console.ReadLine());
+            }
+            int[] input = { tmp[0], tmp[1], tmp[2], tmp[3], tmp[4], tmp[5], tmp[6], tmp[7], tmp[8], tmp[9] };
             return input;
         }
         static void processFunc(int[] input)

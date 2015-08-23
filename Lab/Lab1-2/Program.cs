@@ -10,12 +10,20 @@ namespace Lab1_2
     {
         static void Main(string[] args)
         {
+            outpt(procss(inpt()));
+            Console.ReadKey();
+        }
+
+        static int[] inpt()
+        {
+            string recieve = Console.ReadLine();
+            int[] input = recieve.Split(' ').Select(integer => Convert.ToInt32(integer)).ToArray();
+            return input;
+        }
+
+        static int[] procss(int[] input)
+        {
             bool flag = true;
-
-            // input
-            int[] input = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
-
-            // process
             while (flag)
             {
                 flag = false;
@@ -30,14 +38,16 @@ namespace Lab1_2
                     }
                 }
             }
+            return input;
+        }
 
-            // output
+        static void outpt(int[] input)
+        {
             for (int i = 0; i != input.Length; i++)
             {
                 Console.Write(input[i]);
                 Console.Write(" ");
             }
-            Console.ReadKey();
-        }
+
     }
 }

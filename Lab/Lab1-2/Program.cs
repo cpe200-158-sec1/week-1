@@ -18,8 +18,8 @@ namespace Lab1_2
                 Console.Write(": ");
                 tmp[i] = int.Parse(Console.ReadLine());
             }
-            int[] input = { tmp[0], tmp[1], tmp[2], tmp[3], tmp[4], tmp[5], tmp[6], tmp[7], tmp[8], tmp[9] };
-            return input;
+            //int[] input = { tmp[0], tmp[1], tmp[2], tmp[3], tmp[4], tmp[5], tmp[6], tmp[7], tmp[8], tmp[9] };
+            return tmp;
         }
         static void processFunc(int[] input)
         {

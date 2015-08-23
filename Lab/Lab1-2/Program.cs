@@ -10,7 +10,7 @@ namespace Lab1_2
     {
         static int[] inputFunc()
         {
-            Console.Write("Input your data size : ");
+            Console.Write("How many input do you want ? : ");
             int size = 0;
             size = int.Parse(Console.ReadLine());
             Console.Write("=== Input your data [");

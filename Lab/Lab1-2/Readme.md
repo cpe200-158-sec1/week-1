@@ -11,4 +11,5 @@
 ## Questions
 1. What are the limitations of your new code?
 
-Answer:
+Answer: They can't change variable more than one in a function. Because I used the return type function.
+A way to remove this limitation is use a pass by reference function.

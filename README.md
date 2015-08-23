@@ -10,3 +10,9 @@ The objectives of this week are following
 *
 
 Please complete the homework by yourself, TA will check and grading your homework to evaluate your skill so we can help you to improve your skill.
+
+
+
+ฟหกดฟหกดฟหกดฟไำฟหกด
+asdasdfasd
+asdfasdfsad

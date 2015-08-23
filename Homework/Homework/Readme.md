@@ -6,7 +6,7 @@
 # Questions
 * Why we need "if-else" in function process?
 
-Answer: 
+Answer: เพื่อแยก base case กับ recursive case
 
 
 # Resources

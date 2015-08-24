@@ -6,9 +6,9 @@
 
 ## Revision, put your commit number here
 * Three functions:  aab44124a6845d7a0d486f23678d715bb4bd5e91
-* Get input from command line:  
+* Get input from command line:  6392abdee68e2693e6c820f4fc27a24c6cfbee25
 
 ## Questions
 1. What are the limitations of your new code?
 
-Answer:
+Answer: ไม่สามารถใส่เลขอื้นที่ไใม่ใช่จำนวนเต็มได้

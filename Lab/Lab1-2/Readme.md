@@ -11,4 +11,4 @@
 ## Questions
 1. What are the limitations of your new code?
 
-Answer:
+Answer: อินพุตที่รับเข้ามาเป็นจำนวนเต็มไม่สามารถป้อนอินพุตเป็นเลขทศนิยมได้ และเมื่อโปรแกรมเกิด error จะไม่แจ้งไม่ให้ทราบ

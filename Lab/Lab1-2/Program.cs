@@ -8,7 +8,7 @@ namespace Lab1_2
 {
     class BubbleSortFunction
     {
-        static void main(string[] args)
+        static void Main(string[] args)
         {
             output(process(input()));
             Console.ReadKey();
@@ -16,14 +16,14 @@ namespace Lab1_2
 
         static int[] input()
         {
-            string get = Console.ReadLine();
-            int[] input = get.Split(' ').Select(int => Convert.ToInt32(int)).ToArray();
+            int[] input = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
+            return input;
         }
-
+                
         static int[] process(int[] input)
         {
             bool flag = true;
-      
+
             while (flag)
             {
                 flag = false;

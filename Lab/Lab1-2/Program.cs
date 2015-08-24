@@ -42,7 +42,6 @@ namespace Lab1_2
         static void Main(string[] args)
 +        {
 +            outp(proc(inp()));
-+            Console.ReadKey();
 +        }
 +
 +        static int[] inp()

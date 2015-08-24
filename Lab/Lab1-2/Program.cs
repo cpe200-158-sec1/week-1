@@ -11,33 +11,61 @@ namespace Lab1_2
         static void Main(string[] args)
         {
             bool flag = true;
+        }
+        Console.Readkey();
+        }
 
-            // input
-            int[] input = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
+    static void Main(string[] args)
+    {
+        outp(proc(inp()));
+        Console.Readkey();
+    }
 
-            // process
-            while (flag)
+    // input
+    static int[] inp()
+    {
+        string recieve = Console.ReadLine();
+        int[] input = recieve.Split(' ').Select(integer => Convert.ToInt32(integer));
+        return input;
+    }
+    // process
+    static int[] proc(int[] input)
+    {
+        bool flag = true;
+        while (flag)
+        {
+            flag = false;
+            for (int i = 0; i != input.Length - 1; i++)
             {
-                flag = false;
-                for (int i = 0; i != input.Length - 1; i++)
+                if (input[i] > input[i + 1])
                 {
-                    if (input[i] > input[i + 1])
-                    {
-                        int temp = input[i];
-                        input[i] = input[i + 1];
-                        input[i + 1] = temp;
-                        flag = true;
-                    }
+                    int temp = input[i];
+                    input[i] = input[i + 1];
+                    input[i + 1] = temp;
+                    flag = true;
                 }
             }
+        }
+        return input;
+    }
 
-            // output
-            for (int i = 0; i != input.Length; i++)
-            {
-                Console.Write(input[i]);
-                Console.Write(" ");
-            }
-            Console.ReadKey();
+    // output
+    static void outp(int[] input)
+    {
+
+        for (int i = 0; i != input.Length; i++)
+        {
+            Console.Write(input[i]);
+            Console.Write(" ");
         }
     }
 }
+}
+   
+
+            
+           
+
+     
+    
+

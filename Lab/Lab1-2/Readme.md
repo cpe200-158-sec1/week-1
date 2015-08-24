@@ -5,10 +5,10 @@
 * Revise the code such that it can accept input from command line, put your commit number and answer question 1 below
 
 ## Revision, put your commit number here
-* Three functions:
+* Three functions:0e22aa9ff82a6ebfa2444252277ad99b9d3a41d6
 * Get input from command line:
 
 ## Questions
 1. What are the limitations of your new code?
 
-Answer:
+Answer: My code is compare only ten numbers.

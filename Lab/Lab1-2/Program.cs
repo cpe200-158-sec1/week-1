@@ -21,9 +21,8 @@ namespace Lab1_2
 
         static void input_Num(int[] _input)
         {
-            int[] input = { 4 , 5, 2, 8, 9, 1, 2, 4, 3, 1 };
-            for (int i = 0; i != input.Length; i++)
-                _input[i] = input[i];
+            for (int i=0; i != _input.Length; i++)
+                _input[i] = int.Parse(Console.ReadLine());
         }
 
         static void process(int[] _input)

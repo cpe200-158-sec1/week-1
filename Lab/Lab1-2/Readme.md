@@ -6,9 +6,9 @@
 
 ## Revision, put your commit number here
 * Three functions:74574a54c9fc46c13369270456d69fadd39a0612
-* Get input from command line:
+* Get input from command line:62177d2d684875887fc4091ca3f0f52997a764f8
 
 ## Questions
 1. What are the limitations of your new code?
 
-Answer:
+Answer:user must set size of array first

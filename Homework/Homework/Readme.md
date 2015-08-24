@@ -6,7 +6,7 @@
 # Questions
 * Why we need "if-else" in function process?
 
-Answer:
+Answer:Because calculate factorial is n*(n-1)*(n-2)...(n-a)*1 if-else help us to know when process run until i=1 and the calculation finish.
 
 
 # Resources

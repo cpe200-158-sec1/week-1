@@ -21,7 +21,12 @@ namespace Lab1_2
 
         static int[] input()
         {
-            int input[] = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 }
+            string number;
+
+            number = Console.ReadLine();
+            int[] input = number.Split(' ').Select(integer => Convert.ToInt32(integer)).ToArray();
+
+            
             return input;
         }
 
@@ -46,7 +51,7 @@ namespace Lab1_2
             return input;
         }
 
-        static int[] output(int[] input)
+        static void output(int[] input)
         {
             for (int i = 0; i != input.Length; i++)
             {

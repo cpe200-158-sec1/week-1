@@ -14,7 +14,7 @@ namespace Lab1_2
         }
         Console.Readkey();
         }
-
+     
     static void Main(string[] args)
     {
         outp(proc(inp()));

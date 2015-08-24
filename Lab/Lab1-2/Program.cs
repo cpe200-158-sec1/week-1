@@ -37,7 +37,7 @@ namespace Lab1_2
                     }
                 }
             }
-            return input;
+            return input ;
         }
 
         static void outpt(int[] input)

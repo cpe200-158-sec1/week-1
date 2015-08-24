@@ -6,9 +6,9 @@
 
 ## Revision, put your commit number here
 * Three functions:  cd2d9d20bbf287f95a51b8c88341c09dcf3d0555
-* Get input from command line: 
+* Get input from command line: 86e8eb4be46e1e86582bf17abcb7f49bc5542c83
 
 ## Questions
 1. What are the limitations of your new code?
 
-Answer: 
+Answer: โปรแกรมไม่สามารถรับ ทศนิยมหรือ รับได้แค่ จำนวนเต็ม และ หากรับค่าผิด จะไม่มีการแจ้งเตือนว่าผู้ใช้ กรอกค่าผิด

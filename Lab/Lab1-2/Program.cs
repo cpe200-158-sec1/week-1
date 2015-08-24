@@ -21,9 +21,8 @@ namespace Lab1_2
 
        static void inputt(int[] inputnum)
         {
-            int[] input = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 7 };
-            for (int i = 0; i != input.Length; i++)
-                inputnum[i] = input[i];
+            for (int i = 0; i != inputnum.Length; i++)
+                inputnum[i] = int.Parse(Console.ReadLine());
 
         }
 

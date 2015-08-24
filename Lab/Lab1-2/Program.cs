@@ -6,33 +6,26 @@ using System.Threading.Tasks;
 
 namespace Lab1_2
 {
-    class BubbleSortFunction
-    {
-        static void Main(string[] args)
-        {
-            bool flag = true;
-        }
-        Console.Readkey();
-        }
-     
+  class BubbleSortFunction
+  {
     static void Main(string[] args)
     {
         outp(proc(inp()));
-        Console.Readkey();
+        Console.ReadKey();
     }
 
-    // input
+
     static int[] inp()
     {
         string recieve = Console.ReadLine();
-        int[] input = recieve.Split(' ').Select(integer => Convert.ToInt32(integer));
+        int[] input = recieve.Split(' ').Select(integer => Convert.ToInt32(integer)).ToArray();
         return input;
     }
-    // process
+
     static int[] proc(int[] input)
     {
         bool flag = true;
-        while (flag) 
+        while (flag)
         {
             flag = false;
             for (int i = 0; i != input.Length - 1; i++)
@@ -49,7 +42,7 @@ namespace Lab1_2
         return input;
     }
 
-    // output
+
     static void outp(int[] input)
     {
 
@@ -61,11 +54,3 @@ namespace Lab1_2
     }
 }
 }
-   
-
-            
-           
-
-     
-    
-

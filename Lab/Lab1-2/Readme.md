@@ -5,10 +5,10 @@
 * Revise the code such that it can accept input from command line, put your commit number and answer question 1 below
 
 ## Revision, put your commit number here
-* Three functions:
-* Get input from command line:
+* Three functions: d66e76963f873859eb52f22d91553bb5f94ca2ff
+* Get input from command line: ae75db2f5e88c15d0fd480250095f34c83ffb68f
 
 ## Questions
 1. What are the limitations of your new code?
 
-Answer:
+Answer: Sorted only integer.

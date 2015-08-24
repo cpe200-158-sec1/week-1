@@ -11,5 +11,5 @@
 ## Questions
 1. What are the limitations of your new code?
 
-Answer: 1.A program error when you input incorrect type of data.
+Answer: 1.A program error when you input incorrect type of data. 
 		2.This program process real number input only. 

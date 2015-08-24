@@ -15,10 +15,11 @@ namespace Lab1_2
             Console.ReadKey();         
         }
         static int[] Input()
-        {
-            int[] input = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
+           {
+            string recieve = Console.ReadLine();
+            int[] input = recieve.Split(' ').Select(integer => Convert.ToInt32(integer)).ToArray();
             return input;
-        }
+           }
 
         static int[] Process(int[] input)
         {

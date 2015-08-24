@@ -5,10 +5,9 @@
 * Revise the code such that it can accept input from command line, put your commit number and answer question 1 below
 
 ## Revision, put your commit number here
-* Three functions:
-* Get input from command line:
+* Three functions: 849080e69f2ed6cd8f5fb10f88669ea59ee362c7
+* Get input from command line: 
 
 ## Questions
 1. What are the limitations of your new code?
-
-Answer:
+Answer: The code has limit of array's length that means you can't insert numbers as much as you want but you can insert numbers as you have defined arrays's length and you can't arrange decimal numbers.

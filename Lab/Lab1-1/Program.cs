@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lab1_2
+namespace Lab1_1
 {
     class BubbleSortFunction
     {

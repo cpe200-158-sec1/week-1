@@ -4,40 +4,51 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lab1_1
+namespace Lab1_2
 {
-    class BubbleSort
+    class BubbleSortFunction
     {
         static void Main(string[] args)
         {
+            int[] input = inp();
+            outp(proc(input));
+            Console.ReadKey();
+        }
+
+        static int[] inp()
+        {
+            -int[] x = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
+            +string recieve = Console.ReadLine();
+            +int[] x = recieve.Split(' ').Select(integer => Convert.ToInt32(integer)).ToArray();
+            return x;
+        }
+
+        static int[] proc(int[] x)
+        {
             bool flag = true;
-
-            // input
-            int[] input = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
-
-            // process
             while (flag)
             {
                 flag = false;
-                for (int i = 0; i != input.Length - 1; i++)
+                for (int i = 0; i != x.Length - 1; i++)
                 {
-                    if (input[i] < input[i + 1])
+                    if (x[i] > x[i + 1])
                     {
-                        int temp = input[i];
-                        input[i] = input[i + 1];
-                        input[i + 1] = temp;
+                        int temp = x[i];
+                        x[i] = x[i + 1];
+                        x[i + 1] = temp;
                         flag = true;
                     }
                 }
             }
-
-            // output
-            for (int i = 0; i != input.Length; i++)
+            return x;
+        }
+        static void outp(int[] x)
+        {
+            for (int i = 0; i != x.Length; i++)
             {
-                Console.Write(input[i]);
+                Console.Write(x[i]);
                 Console.Write(" ");
             }
-            Console.ReadKey();
         }
     }
 }

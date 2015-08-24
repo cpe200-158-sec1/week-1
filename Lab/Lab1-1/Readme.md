@@ -13,20 +13,24 @@
 ## Questions
 1. How this code can sort number from smaller to larger
  
-Answer: 
+Answer: By check value of numbers in input[] if input[i]>input[i+1] the program will sort by input[i+1] in front of input[i] and
+		do this for every numbers until all of numbers are sort from smaller to larger.
 
 2. What if two numbers equal, what will happen? 
 
-Answer: 
+Answer: Don't entry if loop and don't switch between those numbers.
 
 3. How many times at line 24 will be executed (as a function of the size of input) 
 
-Answer: 
+Answer: [n-1,(n-1)^2]
 
 4. Why we need flag variable ? 
 
-Answer: 
+Answer: To check before while loop. If flag=false it's means all of numbers are sort from smaller to larger
+		and won't entry while loop. If flag=true it's means some numbers aren't sort from smaller to larger
+		and entry while loop again until flag=true.
+
 
 5. When we remove the flag variable, the code will run faster or slower? in which scenario? 
 
-Answer:
+Answer: 

@@ -18,6 +18,7 @@ namespace Lab1_2
             Console.ReadKey();
         }
 
+
         static void input_Num(int[] _input)
         {
             int[] input = { 4 , 5, 2, 8, 9, 1, 2, 4, 3, 1 };

@@ -8,6 +8,7 @@ namespace Lab1_2
 {
     class BubbleSortFunction
     {
+
         static void Main(string[] args)
         {
             int[] input = inp();

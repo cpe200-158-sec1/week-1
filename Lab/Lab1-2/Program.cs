@@ -23,7 +23,7 @@ namespace Lab1_2
         static int[] process(int[] input)
         {
             bool flag = true;
-        
+      
             while (flag)
             {
                 flag = false;

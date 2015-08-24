@@ -11,4 +11,4 @@
 ## Questions
 1. What are the limitations of your new code?
 
-Answer:
+Answer: 1 Only integer number can process. 2 Can't show error when user type incorrect input.

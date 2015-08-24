@@ -20,7 +20,7 @@ namespace Lab1_2
             int[] input = get.Split(' ').Select(integer =>  Convert.ToInt32(integer)).ToArray();
             return input;
         }
-                
+                    
         static int[] process(int[] input)
         {
             bool flag = true;

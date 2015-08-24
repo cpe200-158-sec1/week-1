@@ -5,10 +5,10 @@
 * Revise the code such that it can accept input from command line, put your commit number and answer question 1 below
 
 ## Revision, put your commit number here
-* Three functions:
-* Get input from command line:
+* Three functions: 449b1e0f127c9b47f10c8c7c797da172aecb5dda
+* Get input from command line: e97aed8785129a56a08bb23a7a4092f34fc10a8c
 
 ## Questions
 1. What are the limitations of your new code?
 
-Answer:
+Answer: You can't input more than 5 numbers.

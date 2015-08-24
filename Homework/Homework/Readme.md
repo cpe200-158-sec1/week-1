@@ -6,7 +6,7 @@
 # Questions
 * Why we need "if-else" in function process?
 
-Answer:
+Answer: For clssify between base case and recurrsive case.
 
 
 # Resources

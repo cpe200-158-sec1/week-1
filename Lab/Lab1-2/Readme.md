@@ -6,9 +6,9 @@
 
 ## Revision, put your commit number here
 * Three functions: cf89d196f45104e04fd3640d2253909fc2779b0f
-* Get input from command line:
+* Get input from command line:59eb0914b0b9fecd80fdeacad61bc9be2302b146
 
 ## Questions
 1. What are the limitations of your new code?
 
-Answer:
+Answer:you can input just one number per commandline only. and variable'int have value that is −32,768 to +32,767.

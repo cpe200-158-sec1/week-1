@@ -14,7 +14,7 @@ namespace Lab1_2
             Console.Write("Size : ");
             size = int.Parse(Console.ReadLine());
             int[] input = new int[size];
-            for (int i = 0; i != size-1; i++) {
+            for (int i = 0; i != size; i++) {
                 input[i] = int.Parse(Console.ReadLine());
             }
             return input;

@@ -11,7 +11,17 @@ namespace Lab1_2
         // input funtion
         static int[] input()
         {
-            int[] input = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
+            int n = 0;
+            Console.Write("Please enter number of values that will be sorted : ");
+            n = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Enter your ");
+            Console.Write(n );
+            Console.WriteLine(" values : ");
+            int[] input = new int[n];
+            for (int i = 0; i < input.Length; i++)
+            {
+                input[i] = int.Parse(Console.ReadLine());
+            }
             return input;
 
         }
@@ -39,7 +49,8 @@ namespace Lab1_2
         // output function
         static void output(int[] input)
         {
-            for(int i = 0; i != input.Length; i++)
+            Console.WriteLine("Your sorted values are : ");
+            for (int i = 0; i != input.Length; i++)
             {
                 Console.Write(input[i]);
                 Console.Write(" ");
@@ -50,7 +61,8 @@ namespace Lab1_2
 
         static void Main(string[] args)
         {
-            int[] n = input();
+            int[] n = { };
+            n = input();
             process(n);
             output(n);
         }

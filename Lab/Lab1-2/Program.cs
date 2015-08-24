@@ -21,8 +21,15 @@ namespace Lab1_2
         }
         public static int[] input()
         {
-            int[] ber = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
-            return ber;
+            Console.WriteLine("Please Enter How Many Number Do You Want ? ");
+            int maximum = Convert.ToInt32(Console.ReadLine());
+            int[] num = new int[maximum];
+            for (int i=0; i != maximum ; i++)
+            {
+                Console.Write("Enter Number "+(i+1)+ " : ");
+                num[i] = Convert.ToInt32(Console.ReadLine());
+            }
+            return num;
         }
         // process
         public static void process (int[] inputnumber)

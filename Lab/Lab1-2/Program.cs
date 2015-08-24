@@ -16,9 +16,9 @@ namespace Lab1_2
 
         static int[] inp()
         {
-            int[] input = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
-            return input;
-
+            string x = Console.ReadLine();
+            int[] input = x.Split(' ').Select(integer => Convert.ToInt32(integer)).ToArray();
+            return input ; 
         }
 
         static int[] process(int[] input)

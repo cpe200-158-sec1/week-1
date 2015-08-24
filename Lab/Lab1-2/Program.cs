@@ -47,6 +47,7 @@ namespace Lab1_2
                 Console.Write(input[i]);
                 Console.Write(" ");
             }
+        }
 
     }
 }

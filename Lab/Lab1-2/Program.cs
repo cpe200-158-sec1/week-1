@@ -13,6 +13,7 @@ namespace Lab1_2
             int[] input = inp();
             outp(proc(input));
             Console.ReadKey();
+
         }
 
         static int[] inp()

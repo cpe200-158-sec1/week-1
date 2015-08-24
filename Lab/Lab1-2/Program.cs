@@ -18,8 +18,12 @@ namespace Lab1_2
         }
         static int[] inputfunction()
         {
-            int[] input = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
-            return input;
+            Console.Write("Input your size: ");
+            int size = int.Parse(Console.ReadLine());
+            int[] array = new int[size];
+            for(int i=0; i != size; i++)
+                array[i] = int.Parse(Console.ReadLine());
+            return array;
         }
         static void processfunction(int[] x)
         {

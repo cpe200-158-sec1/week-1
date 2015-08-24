@@ -32,7 +32,7 @@ namespace Lab1_2
     static int[] proc(int[] input)
     {
         bool flag = true;
-        while (flag)
+        while (flag) 
         {
             flag = false;
             for (int i = 0; i != input.Length - 1; i++)

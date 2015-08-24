@@ -43,7 +43,7 @@ namespace Lab1_2
                 }
             }
         }
-
+         
         public static void output(int[] inputnumber)
         {
             for (int i = 0; i != inputnumber.Length; i++)

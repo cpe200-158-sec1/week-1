@@ -12,15 +12,15 @@ namespace Lab1_2
         {
             int[] input = inp();
             outp(proc(input));
-            Console.ReadKey();
 
+            Console.ReadKey();
         }
 
         static int[] inp()
         {
-            -int[] x = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
-            +string recieve = Console.ReadLine();
-            +int[] x = recieve.Split(' ').Select(integer => Convert.ToInt32(integer)).ToArray();
+            int[] x = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
+            string recieve = Console.ReadLine();
+            int[] x = recieve.Split(' ').Select(integer => Convert.ToInt32(integer)).ToArray();
             return x;
         }
 

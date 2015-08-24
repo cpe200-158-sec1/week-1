@@ -6,7 +6,7 @@
 # Questions
 * Why we need "if-else" in function process?
 
-Answer:
+Answer: if condition is used to call itself until it'll be 1. We call a function like this is recursive function.
 
 
 # Resources

@@ -6,7 +6,7 @@
 # Questions
 * Why we need "if-else" in function process?
 
-Answer:
+Answer: Because it use to make end of recursive form.
 
 
 # Resources

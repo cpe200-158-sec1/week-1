@@ -6,8 +6,7 @@
 # Questions
 * Why we need "if-else" in function process?
 
-Answer:
-
+Answer: Multiplied input-1 and be smaller until to base case
 
 # Resources
 * https://en.wikipedia.org/wiki/Recursion_(computer_science)

@@ -7,26 +7,26 @@
 
 
 ## Revision, put your commit number here
-* Sort from larger to smaller: 
-* Without flag:
+* Sort from larger to smaller: 67d4b03221e0f88ab36682a6d49e69e9d0c90176
+* Without flag: 366cecda632ff9312256bf0f4c6e9dcaaa0fccd6
 
 ## Questions
 1. How this code can sort number from smaller to larger
  
-Answer: 
+Answer: ตรวจสอบค่าของiและตัวต่อไปคือi+1 โดยที่เริ่มi=0 โดยใช้เงื่อนไขi>i+1วนลูปจนกระทั่งi<i+1 แล้วจึงแสดงoutputออกมาจากการเรียงเลขจากน้อยไปมาก
 
 2. What if two numbers equal, what will happen? 
 
-Answer: 
+Answer: ไม่เกิดอะไรขึ้น ไม่ทำการวนลูปfor
 
 3. How many times at line 24 will be executed (as a function of the size of input) 
 
-Answer: 
+Answer: [x,x^2]
 
 4. Why we need flag variable ? 
 
-Answer: 
+Answer: ถ้าไม่มีตัวแปรflagจะมีการวนลูปแค่ครั้งเดียว ทำให้เรียงเลขได้ไม่ครบ
 
 5. When we remove the flag variable, the code will run faster or slower? in which scenario? 
 
-Answer:
+Answer: ช้าลง

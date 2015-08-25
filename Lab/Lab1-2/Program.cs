@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Lab1_2
 {
-    class BubbleSortFunction
-    {
-        static int[] input;
+    class BubbleSortFunction { 
+    
+        static int[] input = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
 
 
         static void Main(string[] args)
@@ -55,7 +55,7 @@ namespace Lab1_2
 
         private static void Input()
         {
-            input = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
+            int[] input = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
         }
     }
 }

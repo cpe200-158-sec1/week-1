@@ -6,7 +6,7 @@
 # Questions
 * Why we need "if-else" in function process?
 
-Answer:
+Answer: The recursive function needs base case to end the loop. So, if-else statement is a base case.
 
 
 # Resources

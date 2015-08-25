@@ -6,7 +6,7 @@
 # Questions
 * Why we need "if-else" in function process?
 
-Answer:Because if we don't use else function when we reduce number until last number,We'll get point 0 in every function.
+Answer:Because if we don't use if-else function when we reduce number until last number is 0,We'll get Unlimit point 0 in every function.
 
 
 # Resources

@@ -6,7 +6,7 @@
 # Questions
 * Why we need "if-else" in function process?
 
-Answer:
+Answer: in calculate factorial  we use "if-else" for check bias case to exis recursive function  
 
 
 # Resources

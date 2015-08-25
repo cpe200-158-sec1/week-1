@@ -6,8 +6,7 @@
 # Questions
 * Why we need "if-else" in function process?
 
-Answer: if-else condition help to check for it 1 ? (1 in factorel is end of factorel's sequence... 
-         if " == 1 " factorel is end and out from recurion else " != 1 "  *= sequence's now - 1  ) 
+Answer: --- 
 
 
 # Resources

@@ -6,9 +6,9 @@
 
 ## Revision, put your commit number here
 * Three functions:5922573ac1b68ca9474f5b4940a4b2ad5c2f81a0
-* Get input from command line:
+* Get input from command line:5c24031a6e735f7cd6263c27a9d3c73774d3ccb1
 
 ## Questions
 1. What are the limitations of your new code?
 
-Answer:
+Answer:user must tell size

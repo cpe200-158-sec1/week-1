@@ -6,7 +6,7 @@
 # Questions
 * Why we need "if-else" in function process?
 
-Answer:
+Answer: Check base case to exit recursive function.
 
 
 # Resources

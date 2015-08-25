@@ -11,13 +11,15 @@ namespace HW1
         static int process(int i)
         {
             int result;
-            if(i > 1)
+            if (i > 1)
             {
                 result = i * process(i - 1);
-            } else
+            }
+            else
             {
                 result = 1;
             }
+          
             return result;
         }
         static void Main(string[] args)

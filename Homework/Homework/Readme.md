@@ -6,7 +6,7 @@
 # Questions
 * Why we need "if-else" in function process?
 
-Answer: because it is recursive form.
+Answer: if we don't have "if-else"  it make infinity loop.
 
 
 # Resources

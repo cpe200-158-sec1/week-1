@@ -19,6 +19,7 @@ namespace Lab1_1
 
 
 
+
             // process
             while (flag)
             {

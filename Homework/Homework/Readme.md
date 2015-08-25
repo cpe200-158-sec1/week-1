@@ -6,7 +6,7 @@
 # Questions
 * Why we need "if-else" in function process?
 
-Answer:
+Answer: this program is factorial calculator . if-else in process will multiplied number until 1(base case).
 
 
 # Resources

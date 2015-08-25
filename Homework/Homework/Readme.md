@@ -6,7 +6,7 @@
 # Questions
 * Why we need "if-else" in function process?
 
-Answer:
+Answer:it will check number for protect program don't work never end 
 
 
 # Resources

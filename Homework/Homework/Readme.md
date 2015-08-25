@@ -6,7 +6,7 @@
 # Questions
 * Why we need "if-else" in function process?
 
-Answer:
+Answer: ถ้าไม่ใช้ if-else จะได้คำตอบเป็น 0 เพราะจะนำคำตอบที่ได้ไปคูณ 0 
 
 
 # Resources

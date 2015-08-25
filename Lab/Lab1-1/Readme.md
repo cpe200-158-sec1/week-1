@@ -7,7 +7,7 @@
 
 
 ## Revision, put your commit number here
-* Sort from larger to smaller:
+* Sort from larger to smaller:2616165eef8975b15780a2edd3cb70c58ab4699d
 * Without flag:
 
 ## Questions
@@ -31,4 +31,4 @@ Answer: เพื่อให้มีการเชคว่าเลขทั
 
 5. When we remove the flag variable, the code will run faster or slower? in which scenario? 
 
-Answer:
+Answer:ช้าลง เพราะถ้ามีflag ถ้ามันเรียงถูกต้องแล้วมันจะไม่ทำต่อแต่ถ้าไม่มีมันจะทำต่อไปจนกว่าจะครบทุกกรณี

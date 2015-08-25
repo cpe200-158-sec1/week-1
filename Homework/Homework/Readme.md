@@ -6,7 +6,8 @@
 # Questions
 * Why we need "if-else" in function process?
 
-Answer:
+Answer:ถ้าหากไม่ใส่ if else แล้ว ตัวเลขจะถูกลบไปเรื่อยๆ จนผลลับทั้งหมดกลายเป็น0
+
 
 
 # Resources

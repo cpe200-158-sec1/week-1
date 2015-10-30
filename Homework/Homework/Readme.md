@@ -6,7 +6,7 @@
 # Questions
 * Why we need "if-else" in function process?
 
-Answer:
+Answer: In case of entered integer is 0. so this factorial function would work correctly bacause factorial of 0 is 1.
 
 
 # Resources

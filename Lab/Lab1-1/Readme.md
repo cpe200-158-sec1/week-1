@@ -12,6 +12,7 @@
 
 ## Questions
 1. How this code can sort number from smaller to larger
+
  
 Answer: smallar to larger
 
@@ -29,4 +30,4 @@ Answer: chek number bubbleshort if true no while if false do while
 
 5. When we remove the flag variable, the code will run faster or slower? in which scenario? 
 
-Answer: faster
+Answer: faster 
